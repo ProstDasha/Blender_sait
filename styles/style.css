@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    backdrop-filter: blur(4px);
+    border: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+input:focus,
+button:focus,
+a:focus,
+.slick-active {
+    outline: none;
+}
+
+body {
+    background-color: #4a7fa2;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    padding-top: 25px;
+    background-image: url(../img/Main.png);
+    background-size: cover;
+    background-size: 130%;
+    background-position: 50% 60%;
+    height: 900px;
+}
+
+.main-text {
+    margin-top: 300px;
+    font-size: 24px;
+}
+
+.main-text-head {
+    margin: 5px 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.projects {
+    height: 1400px;
+    padding-top: 100px;
+    background-color: #4a7fa2;
+}
+
+.projects-head {
+    color: white;
+    margin: 5px 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.projects-card {
+    margin: 0 auto 50px auto;
+    width: 80%;
+    height: 480px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.projects-card:hover {
+    animation: scale 0.15s ease;
+    animation-fill-mode: forwards;
+}
+
+.projects-card-pic {
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-card-pic1 {
+    background-image: url(../img/project1.jpg);
+}
+
+.projects-card-pic2 {
+    background-image: url(../img/project2.jpg);
+}
+
+.projects-card-pic3 {
+    background-image: url(../img/project3.jpg);
+}
+
+.projects-card-pic4 {
+    background-image: url(../img/project4.jpg);
+}
+
+.projects-card-btn {
+    width: 95%;
+    background: #4a7fa2;
+    margin-top: 15px;
+    color: white;
+}
+
+.projects-card-role {
+    height: 38px;
+    line-height: 38px;
+    background-color: #FF3366;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+}
+
+.projects-card-name {
+    margin: 10px;
+    font-weight: 400;
+}
+
+.members {
+    height: 730px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.members-head {
+    color: black;
+    margin: 5px 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.members-member-work {
+    color: #4a7fa2;
+}
+
+.members-member-photo {
+    margin: 0 auto;
+    width: auto;
+    height: 210px;
+    border-radius: 100px;
+    border: 7px solid #4a7fa2;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-member-photo1 {
+    background-image: url(../img/photo1.jpg);
+}
+
+.members-member-photo2 {
+    background-image: url(../img/photo2.jpg);
+}
+
+.members-member-photo3 {
+    background-image: url(../img/photo3.jpg);
+}
+
+.members-member-photo4 {
+    background-image: url(../img/photo4.jpg);
+}
+
+.members-member-photo5 {
+    background-image: url(../img/photo5.jpg);
+}
+
+.members-member-photo6 {
+    background-image: url(../img/photo6.jpg);
+}
+
+.members-member-photo7 {
+    background-image: url(../img/photo7.jpg);
+}
+
+.members-member-photo8 {
+    background-image: url(../img/photo8.jpg);
+}
+
+.members-member-photo9 {
+    background-image: url(../img/photo9.jpg);
+}
+
+.members-member-photo10 {
+    background-image: url(../img/photo10.jpg);
+}
+
+.members-member-photo11 {
+    background-image: url(../img/photo11.jpg);
+}
+
+.members-member-photo12 {
+    background-image: url(../img/photo12.jpg);
+}
+
+.members-member-photo13 {
+    background-image: url(../img/photo13.jpg);
+}
+
+.members-member-photo14 {
+    background-image: url(../img/photo14.jpg);
+}
+
+.members-member-photo15 {
+    background-image: url(../img/photo15.jpg);
+}
+
+.members-member-photo16 {
+    background-image: url(../img/photo16.jpg);
+}
+
+.members-member-photo17 {
+    background-image: url(../img/photo17.jpg);
+}
+
+.members-member-photo18 {
+    background-image: url(../img/photo18.jpg);
+}
+
+.members-member-photo19 {
+    background-image: url(../img/photo19.jpg);
+}
+
+.contacts {
+    height: 550px;
+    padding-top: 100px;
+    background-color: #4a7fa2;
+}
+
+.contacts-head {
+    color: white;
+    margin: 5px 0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.contacts-links {
+    color: white;
+    text-align: left;
+}
+
+.contacts-links a:hover {
+    color: #FF3366;
+}
+
+.contacts-web {
+    color: white;
+}
+
+.contacts-web a {
+    color: #FF3366;
+}
+
+.contacts-web a:hover {
+    color: white;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}

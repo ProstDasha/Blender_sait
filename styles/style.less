@@ -1,0 +1,264 @@
+@main: #4a7fa2;
+@red: #FF3366;
+
+html{
+  scroll-behavior: smooth;
+}
+.font(){
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+.bg(){
+  background-color: @main;
+}
+.txtshadow(){
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+}
+.bxshadow(){
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+}
+.head(){
+  margin: 5px 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+button{
+  backdrop-filter: blur(4px);
+  border: none;
+  .bxshadow;
+  border-radius: 15px;
+}
+input:focus,
+button:focus,
+a:focus,
+.slick-active{
+  outline: none;
+}
+body{
+  .bg;
+  .font;
+}
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+//main
+.main{
+  padding-top: 25px;
+  background-image: url(../img/Main.png);
+  background-size: cover;
+  background-size: 130%;
+  background-position: 50% 60%;
+  height: 900px;
+  &-text{
+    margin-top: 300px;
+    font-size: 24px;
+    &-head{
+      .head;
+      font-size: 100px;
+    }
+  }
+}
+//main
+
+
+
+//projects
+.projects{
+  height: 1400px;
+  padding-top: 100px;
+  background-color: @main;
+  &-head{
+    color: white;
+    .head;
+    font-size: 50px;
+  }
+  &-card{
+    margin: 0 auto 50px auto;
+    width: 80%;
+    height: 480px;
+    background-color: white;
+    color: black;
+    .bxshadow;
+    border-radius: 10px;
+    &:hover {
+      animation: scale  0.15s ease;
+      animation-fill-mode: forwards;
+    }
+    &-pic{
+      border-radius: 10px 10px 0px 0px;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      &1{
+        background-image: url(../img/project1.jpg);
+      }
+      &2{
+        background-image: url(../img/project2.jpg);
+      }
+      &3{
+        background-image: url(../img/project3.jpg);
+      }
+      &4{
+        background-image: url(../img/project4.jpg);
+      }
+    }
+    &-btn{
+      width: 95%;
+      background: @main;
+      margin-top: 15px;
+      color: white;
+    }
+    &-role{
+      height: 38px;
+      line-height: 38px;
+      background-color: @red;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.15em;
+    }
+    &-name{
+      margin: 10px;
+      font-weight: 400;
+    }
+   
+  }
+ 
+}
+//projects
+
+//members
+.members{
+  height: 730px;
+  padding-top: 100px;
+  background-color: white;
+  &-head{
+    color: black;
+    .head;
+    margin-bottom:100px;
+    font-size: 50px;
+  }
+  &-member{
+    &-work{
+      color: @main;
+    }
+    &-photo{
+      margin: 0 auto;
+      width: auto;
+      height: 210px;
+      border-radius: 100px;
+      border: 7px solid @main;
+      .bxshadow;
+      background-size: cover;
+      background-position: center;
+      &1{
+        background-image: url(../img/photo1.jpg);
+      }
+      &2{
+        background-image: url(../img/photo2.jpg);
+      }
+      &3{      
+        background-image: url(../img/photo3.jpg);
+      }
+      &4{
+        background-image: url(../img/photo4.jpg);
+      }
+      &5{
+        background-image: url(../img/photo5.jpg);
+      }
+      &6{
+        background-image: url(../img/photo6.jpg);
+      }
+      &7{
+        background-image: url(../img/photo7.jpg);
+      }
+      &8{
+        background-image: url(../img/photo8.jpg);
+      }
+      &9{
+        background-image: url(../img/photo9.jpg);
+      }
+      &10{
+        background-image: url(../img/photo10.jpg);
+      }
+      &11{
+        background-image: url(../img/photo11.jpg);
+      }
+      &12{
+        background-image: url(../img/photo12.jpg);
+      }
+      &13{
+        background-image: url(../img/photo13.jpg);
+      }
+      &14{
+        background-image: url(../img/photo14.jpg);
+      }
+      &15{
+        background-image: url(../img/photo15.jpg);
+      }
+      &16{
+        background-image: url(../img/photo16.jpg);
+      }
+      &17{
+        background-image: url(../img/photo17.jpg);
+      }
+      &18{
+        background-image: url(../img/photo18.jpg);
+      }
+      &19{
+        background-image: url(../img/photo19.jpg);
+      }
+    }
+  }
+}
+//members
+
+
+//contacts
+.contacts{
+  height: 550px;
+  padding-top: 100px;
+  background-color: @main;
+  &-head{
+    color: white;
+    .head;
+    margin-bottom:100px;
+    font-size: 50px;
+  }
+  &-links{    
+    color: white;
+    text-align: left;
+    a:hover{
+      color: @red;
+    }
+  }
+  &-web{
+    color: white;
+    a{
+      &:hover{
+        color: white;
+      }
+      color:@red;
+    }
+  }
+}
+//contacts
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
